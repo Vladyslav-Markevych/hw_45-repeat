@@ -1,0 +1,40 @@
+.product-section {
+  padding: 30px;
+}
+.name-and-image {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  float: left;
+}
+
+.imageForProduct {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.block-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+.ingr-Image {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.ingr-list {
+  /* display: flex;
+    flex-wrap: wrap;
+    gap: 10px; */
+  display: grid;
+  grid-template-columns: 300px 300px;
+}
+
+.ingr-item {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,1 @@
+export { IdMeal } from "./IdMeal";
